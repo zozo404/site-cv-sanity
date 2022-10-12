@@ -5,9 +5,8 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 //Import My schemas
-import game  from "./game";
+import skills  from "./skills";
 import editors from './editors';
-import pages from "./pages";
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -16,6 +15,6 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
-    game,editors,pages
+    skills,editors
   ]),
 })

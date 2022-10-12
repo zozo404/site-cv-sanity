@@ -1,10 +1,10 @@
 {
-  "name": "vr-cafe",
+  "name": "site-cv-nuxt",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Sandro Das Neves <s.dasneves79@gmail.com>",
+  "author": "Enzo C <enzocuny66@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
