@@ -61,6 +61,6 @@ export default {
             name: 'stages',
             type: 'reference',
             to: [{type: 'stages'}]
-          }
+        }
     ]
 }

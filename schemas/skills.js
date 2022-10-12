@@ -57,10 +57,10 @@ export default {
             type: 'text', 
         },
         {
-            title: 'Editeur',
-            name: 'editor',
+            title: 'Stages',
+            name: 'stages',
             type: 'reference',
-            to: [{type: 'editors'}]
-          }
+            to: [{type: 'stages'}]
+        }
     ]
 }
