@@ -1,7 +1,7 @@
 export default {
-    name:"game",
+    name:"skills",
     type:"document",
-    title:"Game",
+    title:"Compétences",
     fields:[
         {
             name:"name",
