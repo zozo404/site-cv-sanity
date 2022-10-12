@@ -1,7 +1,7 @@
 export default {
-    name:"editors",
+    name:"stages",
     type:"document",
-    title:"Editors", 
+    title:"Stages", 
     fields:[
         {
             name:"name",
