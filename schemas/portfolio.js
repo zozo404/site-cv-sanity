@@ -29,16 +29,6 @@ export default {
             }
         },
         {
-            name:"players",
-            type:"string",
-            title:"players",
-        },
-        {
-            title: 'Youtube URL',
-            name: 'youtube',
-            type: 'string',
-        },
-        {
             name:"difficulty",
             title:"Difficulty",
             type:'string',
@@ -57,10 +47,10 @@ export default {
             type: 'text', 
         },
         {
-            title: 'Editeur',
-            name: 'editor',
+            title: 'Stages',
+            name: 'stages',
             type: 'reference',
-            to: [{type: 'editors'}]
-          }
+            to: [{type: 'stages'}]
+        }
     ]
 }

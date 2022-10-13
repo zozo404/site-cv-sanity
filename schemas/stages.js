@@ -23,7 +23,7 @@ export default {
         {
             name:"link",
             type:"string",
-            title:"Lien Editeur",
+            title:"Lien Stage",
         }
     ],
     
