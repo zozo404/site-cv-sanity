@@ -9,6 +9,7 @@ import skills  from "./skills";
 import stages from './stages';
 import pages from './pages';
 import portfolio from './portfolio';
+import parcours from './parcours';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -17,6 +18,6 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
-    skills,stages,pages, portfolio
+    skills,stages,pages, portfolio, parcours
   ]),
 })
