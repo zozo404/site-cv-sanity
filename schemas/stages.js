@@ -24,7 +24,22 @@ export default {
             name:"link",
             type:"string",
             title:"Lien Stage",
-        }
+        },
+        {
+            name:"year",
+            type:"string",
+            title:"Date du stage"
+        },
+        {
+            name:"location",
+            type:"string",
+            title:"Lieu du stage"
+        },
+        {
+            name:"theme",
+            type:"string",
+            title:"Theme du stage"
+        },
     ],
     
 }
