@@ -1,4 +1,4 @@
-export default{
+export default {
     name:'parcours',
     type:'document',
     title:'Parcours',
