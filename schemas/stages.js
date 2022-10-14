@@ -39,7 +39,7 @@ export default {
             name:"theme",
             type:"string",
             title:"Theme du stage"
-        },
+        }
     ],
     
 }
