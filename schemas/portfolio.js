@@ -34,9 +34,9 @@ export default {
             type:'string',
             options:{
                 list:[
-                    {title:"Easy", value:"easy"},
-                    {title:"Medium", value:"medium"},
-                    {title:"Hard", value:"hard"},
+                    {title:"Simple", value:"Simple"},
+                    {title:"Moyen", value:"Moyen"},
+                    {title:"Dur", value:"Dur"},
                 ],
             layout:'dropdown'
             }
@@ -51,6 +51,11 @@ export default {
             name: 'stages',
             type: 'reference',
             to: [{type: 'stages'}]
+        },
+        {
+            name:"link",
+            type:"string",
+            title:"Lien Projet"
         }
     ]
 }
