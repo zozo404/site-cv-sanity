@@ -47,12 +47,6 @@ export default {
             type: 'text', 
         },
         {
-            title: 'Stages',
-            name: 'stages',
-            type: 'reference',
-            to: [{type: 'stages'}]
-        },
-        {
             name:"link",
             type:"string",
             title:"Lien Projet"
