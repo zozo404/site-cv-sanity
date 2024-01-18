@@ -50,6 +50,11 @@ export default {
             name:"link",
             type:"string",
             title:"Lien Projet"
+        },
+        {
+            name:"url",
+            type:"string",
+            title:"Lien Site"
         }
     ]
 }
