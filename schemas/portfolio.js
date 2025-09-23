@@ -29,6 +29,18 @@ export default {
             }
         },
         {
+            name:"informatique",
+            title:"Développement ou Réseau",
+            type:'string',
+            options:{
+                list:[
+                    {title:"Développement", value:"Developpement"},
+                    {title:"Réseau", value:"Reseau"},
+                ],
+            layout:'dropdown'
+            }
+        },
+        {
             name:"difficulty",
             title:"Difficulty",
             type:'string',
